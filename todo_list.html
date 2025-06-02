@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo_list.css">
+  </head>
+  <body>
+
+    <!-- yapılacaklar listesi için bir kapsayıcı oluşturma -->
+    <div id="todo-container">
+
+      <!-- yapılacaklar listesi için header oluşturma -->
+      <div id="header">
+        <h1>To Do List</h1>
+      </div>
+
+      <!-- Filtreleme butonları -->
+      <div id="filter-options">
+        <button id="filter-all">All</button>
+        <button id="filter-completed">Completed</button>
+        <button id="filter-uncompleted">Uncompleted</button>
+      </div>      
+
+      <br>
+
+      <!-- Input kutusu -->
+      <div id="todo-form">
+        <input
+          type="text"
+          class="input-item"
+          name="input_box"
+          id="input-box"
+          placeholder="Add Task">
+      
+        <!-- Ekleme butonu  -->
+        <button id="input-button" onclick="addTask()">Add</button>
+      </div>
+
+      <!-- Satır boyunca çizgi -->
+      <hr>
+
+      <!-- Görev Listesi -->
+      <h2>Task List</h2>
+      <ul id="list-container"></ul>
+
+      <hr>
+
+    <!-- JS dosyasına bağlantı -->
+    <script type="text/javascript" src="todo_list.js"></script>
+
+  </body>
+</html>

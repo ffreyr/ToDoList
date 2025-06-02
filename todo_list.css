@@ -1,0 +1,132 @@
+/* Genel body bölümü özelleştirme */
+body{ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) -45%, rgb(111, 123, 122) 100%);
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Genel todo-container özelleştirmeleri */
+.todo-container{
+  background: rgb(249, 249, 249);
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #4b4b4b;
+  padding: 20px;
+  color: rgb(56, 56, 56);
+  border-radius: 15px;
+}
+
+/* Input kutusu özelleştirmeleri */
+#input-box{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+ 
+/* Ekleme butonu özelleştirmeleri */
+#input-button{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444444;
+  color: white;
+}
+
+/* Ekleme butonunun üstüne gelindiğinde renk değiştirmesi */
+#input-button:hover {
+  background-color: #b0b0b0; 
+} 
+
+/* hr özelleştirmesi */
+hr{
+  border: 2px solid #000000;
+}
+
+/* Header özelleştirmesi */v
+#header{
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* h1 özelleştirmesi */
+h1{
+  margin-bottom: 20px; 
+}
+
+/* ul sınıfının özelleştirmesi */
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+}
+
+/* li sınıfının özelleştirmesi */
+li {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Düzenleme ve silme butonları özelleştirmesi */
+.edit-btn, .delete-btn{
+  font-family: monospace;
+  font-size: 16px;
+  float: right;
+  color:white;
+  cursor: pointer;
+  margin: -3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: #323232;  
+  border-radius: 5px;
+} 
+
+/* Tamamlandı işaretlenen görevin özelleştirilmesi */
+.completed {
+  text-decoration: line-through;
+  color: rgb(0, 90, 31);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Filtreleme butonlarının konumu */
+#filter-options {
+  margin-top: 10px;
+}
+
+/* Filtreleme butonları özelleştirmeleri */
+#filter-options button {
+  background-color: #444444;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+/* Filtreleme butonlarının üstlerine gelindiğinde aldıkları renk */
+#filter-options button:hover {
+  background-color: #5d5d5d;
+}
